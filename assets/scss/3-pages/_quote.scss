@@ -1,0 +1,135 @@
+
+  .quote-page{
+
+    .row:nth-child(2){
+      margin-top: 11px;
+      .table-wrap{
+        margin-top:0;
+        .table{
+          margin-top:0;
+        }
+      }
+    }
+    .btn-wrapper{
+
+      width:970px;
+      margin: 0 auto;
+
+      .back-btn{
+        img{
+          transform: rotateY(180deg);
+          margin-left: 25px;
+        }
+
+      }
+      a{
+        .fa,
+        .help-text{
+          text-transform: uppercase;
+          font-size: 16px;
+          color: #4e4f51;
+        }
+
+      }
+    }
+    .table-wrap{
+      .quote-table{
+
+        tbody{
+          tr{
+            td{
+              .btn-price{
+                background: $home-page-green;
+                border-color: $home-page-green;
+                width: 85px;
+                height: 31px;
+                border-radius: 3px;
+                padding: 8px;
+                font-size: 16px;
+                line-height: 14px;
+              }
+            }
+          }
+        }
+
+        tfoot{
+          tr{
+            td:first-child{
+              text-align: left;
+              padding-left: 25px;
+              font-size: 18px;
+              font-weight: 400;
+            }
+            td:last-child{
+              text-align: center;
+              font-size: 16px;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .time-table{
+
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+        thead{
+          background: #d7d7d7;
+          color:#000;
+          font-size: 18px;
+          font-weight: 400;
+          tr{
+            th:first-child{
+              text-align: left;
+            }
+            th:last-child{
+              text-align: right;
+            }
+          }
+        }
+        tfoot{
+          background: $home-page-green;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 700;
+          tr{
+            td:first-child{
+              text-align: left;
+            }
+            td:last-child{
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .checkout-wrapper{
+      width: 970px;
+      .btn-place-order{
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.73);
+        width: 231px;
+        height: 51px;
+
+      }
+      .register{
+        margin-top: 24px;
+        margin-bottom: 38px;
+        font-size: 19.5px;
+        a{
+          font-weight: 700;
+          color: #000;
+
+        }
+      }
+      .arrow-right{
+        opacity: 0.3;
+        position: relative;
+        right: -30px;
+        img{
+          width: 35px;
+          height:35px;
+        }
+      }
+      .payment-method{
+        margin-top:37px;
+      }
+    }
+  }

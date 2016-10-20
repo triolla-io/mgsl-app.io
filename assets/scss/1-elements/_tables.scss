@@ -1,0 +1,31 @@
+  .table{
+
+    .btn-success.btn-price{
+      background: $home-page-green;
+      border-color:$home-page-green;
+      color: #fff;
+      border-radius: 3px;
+      width: 85px;
+      height: 31px;
+    }
+  }
+  .panel>.table:first-child {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .panel>.table:last-child{
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px
+  }
+  .panel>.table:first-child>thead:first-child>tr:first-child{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .table-bordered{
+    tr{
+      td{
+        border-right: none;
+        border-left:none;
+      }
+    }
+  }

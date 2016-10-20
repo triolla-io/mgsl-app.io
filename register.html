@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mgsl - register</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body class="login">
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo-Mgsl.png" alt="logo"></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="my_account.html">MY ACCOUNT</a></li>
+                    <li><a href="my_projects.html">MY PROJECTS</a></li>
+                    <li class="register-btn"><a href="register.html">REGISTER</a></li>
+                    <li class="login-btn"><a href="login.html">LOGIN</a></li>
+
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
+<section id="register">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="form-wrap container">
+                <form class="form-register">
+                    <div class="profile"><svg enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <circle cx="25" cy="25" fill="none" r="24" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+                        <rect fill="none" height="50" width="50"/>
+                        <path d="M29.933,35.528c-0.146-1.612-0.09-2.737-0.09-4.21c0.73-0.383,2.038-2.825,2.259-4.888c0.574-0.047,1.479-0.607,1.744-2.818  c0.143-1.187-0.425-1.855-0.771-2.065c0.934-2.809,2.874-11.499-3.588-12.397c-0.665-1.168-2.368-1.759-4.581-1.759  c-8.854,0.163-9.922,6.686-7.981,14.156c-0.345,0.21-0.913,0.878-0.771,2.065c0.266,2.211,1.17,2.771,1.744,2.818  c0.22,2.062,1.58,4.505,2.312,4.888c0,1.473,0.055,2.598-0.091,4.21c-1.261,3.39-7.737,3.655-11.473,6.924  c3.906,3.933,10.236,6.746,16.916,6.746s14.532-5.274,15.839-6.713C37.688,39.186,31.197,38.93,29.933,35.528z" style="fill:#fff;"/></svg></div>
+                    <h2 class="form-register-heading">REGISTER FOR FREE</h2>
+                    <hr class="divider">
+                    <div class="form-group">
+                        <label for="f_name" class="sr-only">Email address</label>
+                        <input type="email"
+                               id="f_name"
+                               name="f_name"
+                               class="form-control"
+                               placeholder="*Full Name:"
+                               required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               class="form-control"
+                               placeholder="*E-mail:"
+                               required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="sr-only">Email address</label>
+                        <input type="password"
+                               id="password"
+                               name="password"
+                               class="form-control"
+                               placeholder="*Password:"
+                               required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label for="re-password" class="sr-only">Email address</label>
+                        <input type="password"
+                               id="re-password"
+                               name="re-password"
+                               class="form-control"
+                               placeholder="*Retype Password:"
+                               required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label for="company" class="sr-only">Password</label>
+                        <input type="text"
+                               id="company"
+                               name="company"
+                               class="form-control"
+                               placeholder="Company Name">
+                    </div>
+                    <div class="form-group select-wrap">
+                        <div class="form-control">
+                            <label for="select-option" class="sr-only">I am...</label>
+                            <select class="select" id="select-option">
+                                <option>I am...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> I agree to the <a href="#" id="toc-link" data-toggle="modal" data-target="#tocModal">Terms and Conditions</a>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-lg btn-warning btn-block btn-continue" type="submit">
+                            CONTINUE
+                            <span class="arrow-right">
+                                <a href="#">
+                                    <img src="assets/images/arrow_right_circle.svg" alt="LOG ME IN" class="img-login">
+                                </a>
+                            </span>
+                        </button>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="tocModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Terms and Conditions</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+  .my-account-page{
+
+    .form-info-wrap{
+      background-color: $forms-grey-bg;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+      width: 765px;
+      margin: 0 auto;
+
+      .form-intro{
+
+        .form-head-img-wrap{
+          border-radius: 50%;
+          box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+          width: 72px;
+          height: 72px;
+          padding: 7px;
+          margin: 0 auto;
+          position: relative;
+          bottom: 34px;
+          svg{
+            fill: #fff;
+          }
+        }
+        .form-head-title-wrap{
+
+          .form-title{
+            color:  #000;
+            font-size: 36px;
+            font-weight: 400;
+            text-transform: uppercase;
+          }
+        }
+
+        p.lead{
+          color:  #2c2c2c;
+          font-size: 16px;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+
+      .form-group{
+
+        input[type="text"]{
+          background-color:  #ffffff;
+          height: 51px;
+          width: 331px;
+          border-radius:50px;
+          color:  #2c2c2c;
+          font-size: 20.25px;
+          margin-bottom: 13px;
+          box-shadow: inset 1px 1px 1px #000000;
+          padding: 17px 22px;
+        }
+        select{
+          background-color:  #ffffff;
+          height: 51px;
+          width: 331px;
+          border-radius:50px;
+          color:  #2c2c2c;
+          font-size: 20.25px;
+          margin-bottom: 13px;
+          box-shadow: inset 1px 1px 1px #000000;
+        }
+        ::-moz-placeholder{
+          color:  #2c2c2c;
+        }
+        ::-webkit-input-placeholder{
+          color:  #2c2c2c;
+        }
+        :-ms-input-placeholder{
+          color:  #2c2c2c;
+        }
+        :-moz-placeholder{
+          color:  #2c2c2c;
+        }
+        input[type="submit"].btn-success{
+          background-color:  $login-btn;
+          border-color: $login-btn;
+          width: 159px;
+          height: 46px;
+          color: #fff;
+          box-shadow: none;
+          text-transform: uppercase;
+          border-radius:50px;
+          font-size: 24px;
+          font-weight: 400;
+        }
+        input[type="submit"].btn-success:hover{
+          background-color:  $login-btn-hover;
+          border-color: $login-btn-hover;
+        }
+      }
+    }
+
+    //specific forms
+    #form-user-info-wrap{
+      height: 448px;
+      padding: 35px 29px 34px 36px;
+
+    }
+    #form-billing-info-wrap{
+      height: 528px;
+      margin-top:150px;
+
+      .form-head-img-wrap {
+
+        background-color: $home-page-blue;
+
+
+        svg{
+          width: 45px;
+          height: 50px;
+
+        }
+      }
+    }
+    #form-reset-password-wrap{
+      height: 478px;
+      margin-top: 84px;
+      margin-bottom: 150px;
+
+      .form-head-img-wrap {
+
+        background-color: $home-page-green-hover;
+        padding: 14px;
+
+        svg{
+          width: 41px;
+          height: 41px;
+
+        }
+      }
+      input[type="text"]{
+        margin: 0 auto;
+        font-size: 20px;
+
+      }
+    }
+  }

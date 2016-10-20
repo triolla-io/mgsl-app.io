@@ -1,0 +1,24 @@
+//elements
+@import "1-elements/colors";
+@import "1-elements/typography";
+@import "1-elements/titles";
+@import "1-elements/forms";
+@import "1-elements/bootstrap_elements";
+@import "1-elements/buttons";
+@import "1-elements/box";
+
+//Layouts
+@import "2-layouts/header";
+//pages
+@import "3-pages/home";
+@import "3-pages/login";
+@import "3-pages/register";
+@import "3-pages/myProjects";
+@import "3-pages/quote";
+@import "3-pages/survey";
+@import "3-pages/ty-page";
+@import "3-pages/my_account";
+
+
+//Responsive
+@import "4-responsive/responsive";

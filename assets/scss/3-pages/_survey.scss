@@ -1,0 +1,138 @@
+    .survey-intro-text {
+      max-width: 705px;
+      position: relative;
+      left: 5%;
+      font-size: 18px;
+      color: #626262;
+      line-height: 25px;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+
+
+  .survey-box{
+
+    .service-tab{
+      background: url(../images/orange-tab.png);
+      background-repeat: no-repeat;
+      position: relative;
+      left: 9px;
+      top: -22px;
+      padding-top: 10px;
+
+      ol.survey-steps{
+        margin-left: 0;
+        font-size: 36px;
+        position: relative;
+        top: 17px;
+        padding-top: 0;
+        margin-top: 0;
+        left: 7px;
+        font-family: 'opensans', sans-serif;
+        font-weight: lighter;
+        li.survey-step{
+
+        }
+      }
+    }
+    .service-tab.completed{
+      background: url(../images/green.png);
+      background-repeat: no-repeat;
+      ol{
+        position: relative;
+        top: -12px;
+      }
+
+    }
+    .col-md-10.service-content.text-center {
+      height: 218px;
+      margin-bottom: 42px;
+
+    }
+    .service-content{
+      border-right: 5px solid $mgsl-orange;
+
+      hr.service-box-divider{
+        width: 90%;
+        background-color: rgba(54, 54, 54, 0.1);
+        height: 1px;
+
+      }
+      p.lead{
+        color:  #626262;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+      }
+      .survey-level-low,
+      .survey-level-high{
+        display: inline-block;
+        text-transform: uppercase;
+        font-size:14px;
+        font-weight: 300;
+      }
+      .survey-level-low{
+        margin-right:6px;
+      }
+      .survey-level-high{
+        margin-left:6px;
+      }
+    }
+    .form-group{
+      margin-bottom: 15px;
+      line-height: 1.5;
+      display: table-cell;
+      width: 100%;
+      position: relative;
+      right: 0;
+      left: 20%;
+      padding:45px 0;
+
+      hr.timeline{
+        border-color: #bcbbbb;
+        border-width: 3px;
+        margin: 0;
+        position: relative;
+        top: 30px;
+        width: 55%;
+        left: 20%;
+        height: 5px;
+      }
+      label.radio-inline{
+        border-radius: 50%;
+        background-color: #bcbbbb;
+        width: 36px;
+        height: 36px;
+        color: #fff;
+        font-size: 24px;
+        padding: 1px;
+        cursor: pointer;
+        vertical-align: text-bottom;
+        margin-right: 21px;
+      }
+      input[type="radio"]{
+        opacity: 0;
+      }
+      input:checked+label{
+        background: $home-page-green;
+      }
+    }
+
+  }
+
+    #survey-send{
+      padding: 0 0 145px 0;
+
+      .btn-place-order{
+          .arrow-right{
+            position: relative;
+            left: 5px;
+            img{
+              opacity: 0.3;
+              width: 35px;
+              height: 35px;
+            }
+          }
+      }
+    }

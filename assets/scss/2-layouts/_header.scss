@@ -1,0 +1,140 @@
+$logo-max: 150px;
+  body{
+  //direction: rtl;
+  padding-top: 60px;
+  }
+
+  .navbar-default{
+    height: 85px;
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.4);
+
+    .navbar-nav{
+      padding: 15px 0;
+      li{
+
+
+        a{
+          padding: 5px 20px;
+          color: #000;
+          border-radius: 50px;
+          font-size: 16px;
+        }
+      }
+      li.active{
+
+        a{
+          background-color: #66a8d8;
+          color: #fff;
+        }
+      }
+      li.register-btn{
+        background-color: #66a8d8;
+        color: #fff;
+        border-radius: 50px;
+        margin-right: 5px;
+      }
+      li.login-btn{
+        background:#d7d7d7;
+        color: #fff;
+        border-radius: 50px;
+      }
+    }
+  }
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 20px;
+      img{
+        -webkit-box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.4);
+        box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.4);
+        background: #fff;
+        max-width: $logo-max;
+        height: auto;
+        padding: 10px;
+      }
+  }
+
+  #hero{
+    background: url('../images/hero_bg.png') no-repeat center;
+    background-size: cover;
+    height: 350px;
+
+          .hero-title {
+          padding: 40px 15px;
+          text-align: center;
+          color: #fff;
+          text-transform: uppercase;
+            margin-top: 59px;
+            .title-img-wrap {
+              width: 72px;
+              height: 72px;
+              background: $mgsl-orange;
+              padding: 15px 15px;
+              border-radius: 100%;
+              border: 1px solid $mgsl-orange;
+              margin: 0 auto;
+
+              img{
+                width: 40px;
+                height: 40px;
+              }
+              svg{
+                fill: #fff;
+              }
+            }
+            .title-img-wrap.green-img-wrap{
+              width: 72px;
+              height: 72px;
+              background: $login-btn;
+              padding: 15px 15px;
+              border-radius: 100%;
+              border: 1px solid $login-btn;
+              margin: 0 auto;
+              img{
+
+                width: 80px;
+                height: 80px;
+                padding: 13px;
+                border-radius: 50%;
+              }
+              svg{
+
+                width: 80px;
+                height: 80px;
+                padding: 13px;
+                border-radius: 50%;
+                position: relative;
+                bottom: 20px;
+                right: 19px;
+              }
+            }
+            .title-img-wrap.support-img-wrap{
+
+              svg{
+                width: 41px;
+                height: 46px;
+              }
+            }
+
+        }
+
+
+}
+  #hero.hero-quote{
+    background: url('../images/quote_head_bg.png') no-repeat center;
+    background-size:cover;
+  }
+  #hero.survey-hero{
+    background: url('../images/survey-hero.jpg') no-repeat center top;
+    background-size: cover;
+    height: 350px;
+  }
+  #hero.thank-you-hero{
+
+  }

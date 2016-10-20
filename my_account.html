@@ -1,0 +1,337 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>mgsl - account information</title>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo-Mgsl.png" alt="logo"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="my_account.html">MY ACCOUNT</a></li>
+                        <li><a href="my_projects.html">MY PROJECTS</a></li>
+                        <li class="register-btn"><a href="register.html">REGISTER</a></li>
+                        <li class="login-btn"><a href="login.html">LOGIN</a></li>
+
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+    </header><!--header-->
+    <section id="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hero-title text-center">
+                    <div class="title-img-wrap green-img-wrap">
+                        <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <circle cx="25" cy="25" fill="none" r="24" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+                            <rect fill="none" height="50" width="50"/>
+                            <path d="M29.933,35.528c-0.146-1.612-0.09-2.737-0.09-4.21c0.73-0.383,2.038-2.825,2.259-4.888c0.574-0.047,1.479-0.607,1.744-2.818  c0.143-1.187-0.425-1.855-0.771-2.065c0.934-2.809,2.874-11.499-3.588-12.397c-0.665-1.168-2.368-1.759-4.581-1.759  c-8.854,0.163-9.922,6.686-7.981,14.156c-0.345,0.21-0.913,0.878-0.771,2.065c0.266,2.211,1.17,2.771,1.744,2.818  c0.22,2.062,1.58,4.505,2.312,4.888c0,1.473,0.055,2.598-0.091,4.21c-1.261,3.39-7.737,3.655-11.473,6.924  c3.906,3.933,10.236,6.746,16.916,6.746s14.532-5.274,15.839-6.713C37.688,39.186,31.197,38.93,29.933,35.528z" style="fill:#fff;"/></svg>
+                    </div>
+                    <h1>account information</h1>
+
+                </div>
+            </div>
+        </div>
+    </section><!--section#hero-->
+    <div class="container my-account-page" id="main-content">
+    <div class="row form-info-wrap" id="form-user-info-wrap">
+        <form action="" id="user-info-update">
+            <div class="col-md-12 form-intro">
+                <p class="lead">Below is a list of the projects you submitted for translation.All In Progress Completed Canceled</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                    <label for="full_name" class="sr-only">Full Name</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="full_name"
+                               id="full_name"
+                               required="required"
+                               placeholder="*Full Name:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="email" class="sr-only">email</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="email"
+                               required="required"
+                               id="email" placeholder="*Email:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="company_name" class="sr-only">Company Name</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="company_name"
+                               id="company_name"
+                               placeholder="Company Name:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="phone" class="sr-only">phone</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="phone"
+                               id="phone"
+                               placeholder="Phone:">
+                    </div>
+                </div><!--form-group-->
+            </div><!--col-md-6, left-col-->
+            <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                    <label for="address" class="sr-only">addressd</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               id="address"
+                               name="address"
+                               placeholder="*Address:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="country" class="sr-only">country</label>
+                    <div class="col-sm-12">
+                        <select class="form-control" id="country" name="country">
+                            <option>Country...</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="city" class="sr-only">city</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               id="city"
+                               name="city"
+                               placeholder="City:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="select-option" class="sr-only">select-option</label>
+                    <div class="col-sm-12">
+                        <select class="form-control" id="select-option" name="select-option">
+                            <option>I am...</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div><!--form-group-->
+            </div><!--col-md-6, right-col-->
+            <div class="col-md-12 btn-wrap form-info-btn-wrap text-center">
+                <div class="form-group">
+                    <input type="submit" name="submit_user_info"class="btn btn-success" value="UPDATE">
+                </div>
+            </div><!--.form-info-btn-wrap-->
+        </form>
+    </div>
+    <div class="row form-info-wrap" id="form-billing-info-wrap">
+        <form action="" id="user-billing-update">
+            <div class="col-md-12 text-center form-intro">
+                <div class="form-head-img-wrap">
+                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.23 74.3">
+                        <title>money</title>
+                        <path d="M29.8,74C13.21,74,2.33,73,2.33,58.6c0-11.19,10.25-23.57,17-31.77l1.46-1.77a.81.81,0,0,0-1.25-1l-1.45,1.76C11.19,34.18.72,46.83.72,58.6c0,17,14.78,17,29.08,17,6.27,0,11.9-.1,16.56-1.15L45.79,73C41.34,73.95,35.88,74,29.8,74Z" transform="translate(-0.72 -1.35)"/>
+                        <path d="M40.46,24.52l-.39-.46a.81.81,0,1,0-1.23,1l.39.46c5.93,7,13.91,16.42,16.87,25.94l1.86.68C55.21,41.94,46.72,31.9,40.46,24.52Z" transform="translate(-0.72 -1.35)"/><path d="M42.11,20.65a.81.81,0,0,0-.81-.81H17.48a.81.81,0,1,0,0,1.62H41.3A.81.81,0,0,0,42.11,20.65Z" transform="translate(-0.72 -1.35)"/>
+                        <path d="M19.95,17.17A.81.81,0,1,0,21.07,16l-4.62-4.44a1.16,1.16,0,0,1-.29-1c.13-.4.83-1.42,4.51-2.18.85-.18,1.15.23,1.68,2.29.4,1.53.94,3.62,3.07,3.47,1.7-.13,2-1.77,2.35-3.36.4-2,.86-4.27,3.62-5.27l.22-.08c3.11-1.12,9.6-3.46,11.44-2,.24.18.55.53.48,1.47-.38,5-5.05,11.52-5.1,11.59a.81.81,0,1,0,1.31.94c.2-.28,5-7,5.4-12.41A3.08,3.08,0,0,0,44,2.11c-2.35-1.79-7.7-.09-13,1.81L30.84,4c-3.62,1.31-4.25,4.41-4.66,6.47-.28,1.41-.45,2-.89,2.06-.66.05-.93-.55-1.38-2.26s-1-4-3.57-3.47c-3.39.7-5.26,1.78-5.73,3.3a2.73,2.73,0,0,0,.69,2.61Z" transform="translate(-0.72 -1.35)"/>
+                        <path d="M25.59,39.1A4.73,4.73,0,0,1,27.24,38a6.37,6.37,0,0,1,2.46-.44,5.94,5.94,0,0,1,2.44.45,4.46,4.46,0,0,1,1.6,1.18,5.1,5.1,0,0,1,1,1.75.81.81,0,0,0,1.54-.49A6.7,6.7,0,0,0,35,38.15a6.07,6.07,0,0,0-2.17-1.61A7,7,0,0,0,30.51,36V34.65a.81.81,0,0,0-1.62,0V36a7.45,7.45,0,0,0-2.28.53A6.32,6.32,0,0,0,24.42,38a6.11,6.11,0,0,0-1.29,2.08,6.87,6.87,0,0,0-.42,2.37,7,7,0,0,0,.52,2.89,5.55,5.55,0,0,0,1.39,1.91,7,7,0,0,0,2,1.22,22.65,22.65,0,0,0,2.33.78q1.19.33,2.32.67a7.79,7.79,0,0,1,2,.9,4.62,4.62,0,0,1,1.43,1.49,4.8,4.8,0,0,1,.58,2.49A6.71,6.71,0,0,1,35,56.88a4.71,4.71,0,0,1-1,1.7,4.37,4.37,0,0,1-1.62,1.12,6.09,6.09,0,0,1-2.32.4,7.11,7.11,0,0,1-2.16-.32,4.75,4.75,0,0,1-1.79-1,5.6,5.6,0,0,1-1.32-1.93.81.81,0,1,0-1.48.64A7.19,7.19,0,0,0,25,59.93a6.36,6.36,0,0,0,2.4,1.39,8.3,8.3,0,0,0,1.5.32v1.43a.81.81,0,0,0,1.62,0V61.7A7.41,7.41,0,0,0,33,61.19a6,6,0,0,0,2.21-1.54,6.33,6.33,0,0,0,1.29-2.28,8.35,8.35,0,0,0,.39-2.56,6.37,6.37,0,0,0-.81-3.33,6.21,6.21,0,0,0-1.93-2,9.41,9.41,0,0,0-2.39-1.1Q30.6,48,29.39,47.7A21.07,21.07,0,0,1,27.23,47,5.36,5.36,0,0,1,25.67,46a4,4,0,0,1-1-1.36,5.46,5.46,0,0,1-.37-2.22,5.28,5.28,0,0,1,.33-1.82A4.53,4.53,0,0,1,25.59,39.1Z" transform="translate(-0.72 -1.35)"/>
+                        <path d="M50.78,75.65h0a.81.81,0,0,1-.71-.53L41.15,50.89a.81.81,0,0,1,1-1l24.23,8.87a.81.81,0,0,1,.08,1.48l-10,5-5,10A.81.81,0,0,1,50.78,75.65ZM43.27,52l7.63,20.84,4.28-8.57a.81.81,0,0,1,.36-.36L64.1,59.6Z" transform="translate(-0.72 -1.35)"/>
+                    </svg>
+                </div>
+                <div class="form-head-title-wrap">
+                    <h2 class="form-title">
+                        billing & address
+                    </h2>
+                    <p class="lead">dolor sit amet, consectetur adipiscing eliur adipiscing elit, sed dot, sed do</p>
+                </div>
+            </div><!--for-intro-->
+            <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                    <label for="b_full_name" class="sr-only">Full Name</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="b_full_name"
+                               id="b_full_name"
+                               required="required"
+                               placeholder="*Full Name:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="b_email" class="sr-only">email</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="b_email"
+                               required="required"
+                               id="b_email" placeholder="*Email:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="b_company_name" class="sr-only">Company Name</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="b_company_name"
+                               id="b_company_name"
+                               placeholder="Company Name:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="b_phone" class="sr-only">phone</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               name="b_phone"
+                               id="b_phone"
+                               placeholder="Phone:">
+                    </div>
+                </div><!--form-group-->
+            </div><!--col-md-6, left-col-->
+            <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                    <label for="b_address" class="sr-only">addressd</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               id="b_address"
+                               name="b_address"
+                               placeholder="*Address:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="b_country" class="sr-only">country</label>
+                    <div class="col-sm-12">
+                        <select class="form-control" id="b_country" name="b_country">
+                            <option>Country...</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="b_city" class="sr-only">city</label>
+                    <div class="col-sm-12">
+                        <input type="text"
+                               class="form-control"
+                               id="b_city"
+                               name="b_city"
+                               placeholder="City:">
+                    </div>
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label for="b_select-option" class="sr-only">select-option</label>
+                    <div class="col-sm-12">
+                        <select class="form-control" id="b_select-option" name="b_select-option">
+                            <option>I am...</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div><!--form-group-->
+            </div><!--col-md-6, right-col-->
+            <div class="col-md-12 btn-wrap form-info-btn-wrap text-center">
+                <div class="form-group">
+                    <input type="submit" name="submit_user_info"class="btn btn-success" value="UPDATE">
+                </div>
+            </div><!--.form-info-btn-wrap-->
+        </form>
+    </div>
+    <div class="row form-info-wrap" id="form-reset-password-wrap">
+        <form action="" id="user-reset-password">
+            <div class="col-md-12 text-center form-intro">
+                <div class="form-head-img-wrap">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41">
+                        <defs><style>.cls-1{fill:none;}.cls-2{fill:#fff;}</style></defs>
+                        <title>key</title>
+                        <path class="cls-1" d="M28.59,2.07A11.39,11.39,0,1,0,40,13.46,11.39,11.39,0,0,0,28.59,2.07Zm3.8,12.15a4.56,4.56,0,1,1,4.56-4.56A4.56,4.56,0,0,1,32.39,14.22Z"/>
+                        <path class="cls-1" d="M16.7,19,1.52,34.17v5.31H6.07V34.93h4.56V30.37h5.31L22,24.3A13,13,0,0,1,16.7,19Z"/>
+                        <path class="cls-2" d="M31.89,4.56a4.56,4.56,0,1,0,4.56,4.56A4.56,4.56,0,0,0,31.89,4.56Zm0,7.59a3,3,0,1,1,3-3A3,3,0,0,1,31.89,12.15Z"/>
+                        <path class="cls-2" d="M28.09,0A12.92,12.92,0,0,0,16,17.41l-16,16V41H7.59V36.44h4.56V31.89H16.7L23.59,25A12.91,12.91,0,1,0,28.09,0ZM15.94,30.37H10.63v4.56H6.07v4.56H1.52V34.17L16.7,19A13,13,0,0,0,22,24.3ZM28.09,24.3A11.39,11.39,0,1,1,39.48,12.91,11.39,11.39,0,0,1,28.09,24.3Z"/>
+                    </svg>
+                </div>
+                <div class="form-head-title-wrap">
+                    <h2 class="form-title">
+                        password update
+                    </h2>
+                    <p class="lead">dolor sit amet, consectetur adipiscing eliur adipiscing elit, sed dot, sed do</p>
+                </div>
+            </div><!--for-intro-->
+                <div class="col-sm-12 text-center">
+                    <div class="form-group">
+                        <label for="old_password" class="sr-only">old password</label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="old_password"
+                                   name="old_password"
+                                   placeholder="Old Password:">
+                    </div><!--form-group-->
+                </div>
+                <div class="col-sm-12 text-center">
+                    <div class="form-group">
+                        <label for="new_password" class="sr-only">New Password</label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="new_password"
+                                   name="new_password"
+                                   placeholder="New Password:">
+                    </div><!--form-group-->
+                </div>
+                <div class="col-sm-12 text-center">
+                    <div class="form-group">
+                        <label for="re_new_password" class="sr-only">Retype New Password</label>
+                        <input type="text"
+                               class="form-control"
+                               id="re_new_password"
+                               name="re_new_password"
+                               placeholder="Retype New Password:">
+                    </div><!--form-group-->
+                </div>
+                <div class="col-md-12 btn-wrap form-info-btn-wrap text-center">
+                    <div class="form-group">
+                        <input type="submit" name="reset_password"class="btn btn-success" value="update">
+                    </div>
+                </div><!--.form-info-btn-wrap-->
+        </form>
+    </div>
+
+    </div><!--#main-content-->
+
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+    </html>

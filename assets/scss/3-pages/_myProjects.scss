@@ -1,0 +1,131 @@
+
+  .table-wrap{
+    margin-top: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 970px;
+    .table {
+      max-width:100%;
+      margin: 20px auto;
+      text-align: center;
+      background-color:  rgba(247, 246, 246, 0.9);
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      thead{
+        background: #3f4042;
+        color: #fff;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        tr{
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+          th{
+            text-align: center;
+            font-weight: 100;
+            height:49px;
+            vertical-align: middle;
+            border-right: 1px solid ;
+            border-right-color: rgba(46, 47, 50, 0.5);
+          }
+          th.top-left{
+            border-top-left-radius: 6px;
+          }
+          th:nth-child(5){
+            border-right:none;
+          }
+          th.top-right{
+            border-top-right-radius: 6px;
+          }
+        }
+      }
+      tbody{
+
+        tr{
+
+          td{
+            vertical-align: middle;
+
+            .btn{
+              width: 114px;;
+            }
+          }
+        }
+        .more-info{
+          display: none;
+          background: #2f3b38;
+          color: $home-page-green;
+
+          td{
+            width: 15%;
+
+            span{
+              color: #fff;
+            }
+
+            .btn-success{
+              background: $home-page-green;
+              border-color: $home-page-green;
+              width: 85px;
+              height: 31px;
+            }
+          }
+          .mi-close{
+            color:#fff;
+          }
+        }
+      }
+    }
+    td{
+      border-right: none;
+    }
+  }
+  .btn-success.new-project-link {
+    background: $home-page-green;
+    border-color: $home-page-green;
+    width: 85px;
+    height: 31px;
+    text-transform: uppercase;
+    width: 228px;
+    height: 39px;
+    border-radius:50px;
+
+    span.arrow-right{
+      position: relative;
+      right: -15px;
+
+      img{
+        opacity: 0.3;
+      }
+    }
+  }
+  .filter-wrap{
+    .btn{
+      border-radius: 50px;
+      width: 147px;
+      height: 32px;
+      text-align: left;
+
+      .caret{
+        margin-left:15px;
+        width: 9px;
+        height: 8px;
+      }
+
+      span.filter-img {
+
+
+        img {
+          width: 20px;
+          height: 19px;
+        }
+      }
+    }
+  }
+
+  @media screen and(max-width: 768px) {
+
+    .table-wrap{
+      width:90%;
+      margin: 0 auto;
+    }
+  }

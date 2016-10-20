@@ -1,0 +1,89 @@
+  //colors
+
+    .btn-success.btn-login{
+    background: $login-btn;
+    border-color: $login-btn;
+    color:#fff;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width: 35%;
+    margin: 0 auto;
+    font-weight: lighter;
+    font-size: 22px;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    }
+  .btn-success.btn-login:hover{
+    background-color: $login-btn-hover;
+    border-color: $login-btn-hover;
+  }
+  .btn-warning.btn-continue{
+    background: $continue-btn;
+    border-color: $continue-btn;
+    color:#fff;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width: 35%;
+    margin: 0 auto;
+    font-weight: lighter;
+    font-size: 22px;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+  }
+  .btn-warning.btn-continue:hover{
+    background: $continue-btn-hover;
+    border-color: $continue-btn-hover;
+  }
+  .btn-warning.btn-place-order{
+    background: $continue-btn;
+    border-color: $continue-btn;
+    color:#fff;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width: 30%;
+    margin: 0 auto;
+    font-weight: lighter;
+    font-size: 22px;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    text-transform: uppercase;
+  }
+  .btn-warning.btn-place-order:hover{
+    background: $continue-btn-hover;
+    border-color: $continue-btn-hover;
+  }
+  .service-box-btn-blue{
+    background-color: $home-page-blue;
+    border-color: $home-page-blue;
+    color:#fff;
+  }
+  .service-box-btn-grey{
+    background-color: $home-page-grey;
+    border-color: $home-page-grey;
+  }
+  .btn-primary.more-options{
+    background: $home-page-blue;
+    border:$home-page-blue;
+    color:#fff;
+    border-radius: 50px;
+  }
+  .btn-primary.more-options:hover{
+    background: $home-page-blue-hover;
+    border:$home-page-blue-hover;
+  }
+  .btn-checkout{
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.73);
+    width: 319px;
+    height: 73px;
+    background: $home-page-green;
+    border-color: $home-page-green;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 400;
+  }
